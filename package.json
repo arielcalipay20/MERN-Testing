@@ -1,5 +1,4 @@
 {
-  "homepage": "http://arielcalipay20.github.io/MERN-Testing",
   "name": "mern-testing",
   "version": "1.0.0",
   "description": "",
@@ -9,15 +8,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "MERN"
+    "url": "MERN-Testing"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "author": "arielcalipay20",
+  "license": "ISC"
 }
